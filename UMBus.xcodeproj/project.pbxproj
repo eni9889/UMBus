@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -63,6 +63,7 @@
 		47DA687C1357B97900C2E0E5 /* StopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47DA687A1357B97900C2E0E5 /* StopViewController.xib */; };
 		47DA68801357BAB100C2E0E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DA687F1357BAB100C2E0E5 /* CoreLocation.framework */; };
 		47DA68821357BAB100C2E0E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DA68811357BAB100C2E0E5 /* MapKit.framework */; };
+		47E6D040160FD6F50030FA1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E6D03F160FD6F50030FA1A /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +147,7 @@
 		47DA687A1357B97900C2E0E5 /* StopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StopViewController.xib; path = Classes/StopViewController.xib; sourceTree = "<group>"; };
 		47DA687F1357BAB100C2E0E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		47DA68811357BAB100C2E0E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		47E6D03F160FD6F50030FA1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* UMBus-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UMBus-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,7 +214,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				47D5ABEC135E8DC500A2E74D /* QuartzCore.framework */,
+				47E6D03F160FD6F50030FA1A /* Default-568h@2x.png */,
 				476C3BD1135A7D4D000C4F74 /* XMLSupport */,
 				476C3BBA135A3C7F000C4F74 /* Icons */,
 				47D5ABE3135E87E100A2E74D /* Map Path */,
@@ -221,10 +223,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				47DA64EB1356951800C2E0E5 /* libxml2.dylib */,
-				47DA657713569E9A00C2E0E5 /* libz.dylib */,
-				47DA687F1357BAB100C2E0E5 /* CoreLocation.framework */,
-				47DA68811357BAB100C2E0E5 /* MapKit.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -254,6 +252,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47DA64EB1356951800C2E0E5 /* libxml2.dylib */,
+				47DA657713569E9A00C2E0E5 /* libz.dylib */,
+				47DA687F1357BAB100C2E0E5 /* CoreLocation.framework */,
+				47DA68811357BAB100C2E0E5 /* MapKit.framework */,
+				47D5ABEC135E8DC500A2E74D /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -346,8 +349,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UMBus" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -395,6 +401,7 @@
 				47D5AC1F136350F200A2E74D /* favL@2x.png in Resources */,
 				47D5AC2213635E5300A2E74D /* 28-star.png in Resources */,
 				47D5AC2313635E5300A2E74D /* 28-star@2x.png in Resources */,
+				47E6D040160FD6F50030FA1A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +480,6 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "9BEDBEEE-E053-4879-8BED-B35DFAAED826";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FA8892DA-8E08-4CFF-A40B-EC9E38ECC702";
 				SDKROOT = iphoneos;
@@ -491,7 +497,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "9BEDBEEE-E053-4879-8BED-B35DFAAED826";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;

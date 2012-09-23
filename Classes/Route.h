@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GDataXMLNode.h"
 
-
-@interface Route : NSObject {
+@interface Route : GDataXMLElement {
 	
 	NSString *rName;
 	NSArray *rStops;

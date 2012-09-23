@@ -371,7 +371,7 @@
     
     if (time>0 && time <= 1) 
     {
-        tLabel = [NSString stringWithFormat:@"Arriving in less than a minute",routeLabel];
+        tLabel = [NSString stringWithFormat:@"Arriving in less than a minute"];
     }
     
     
