@@ -475,13 +475,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: UnlimApps";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Enea Gjoka (8BM8YEN7BB)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Enea Gjoka (8BM8YEN7BB)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PROVISIONING_PROFILE = "9BEDBEEE-E053-4879-8BED-B35DFAAED826";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FA8892DA-8E08-4CFF-A40B-EC9E38ECC702";
+				PROVISIONING_PROFILE = "913AC15E-7A36-42E5-8872-4ED538A3906A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "913AC15E-7A36-42E5-8872-4ED538A3906A";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -491,14 +491,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: UnlimApps";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: UnlimApps";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "9BEDBEEE-E053-4879-8BED-B35DFAAED826";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "2C70C677-5EC9-4ED8-BE9C-FF9A05682616";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2C70C677-5EC9-4ED8-BE9C-FF9A05682616";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
