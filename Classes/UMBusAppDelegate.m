@@ -40,7 +40,7 @@
 
 	tabController.viewControllers = theViews;
 	tabController.delegate = self;
-	[window addSubview:[tabController view]];
+	[window setRootViewController:tabController];
 	
     [self.window makeKeyAndVisible];
     

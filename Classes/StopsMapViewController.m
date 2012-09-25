@@ -113,12 +113,13 @@
     region.center=location;
     
     for (GDataXMLElement *stop in stops) {
-        
-        location.latitude = [[[stop elementsForName:@"latitude"] objectAtIndex:0] floatValue];
-        location.longitude = [[[stop elementsForName:@"longitude"] objectAtIndex:0] floatValue];
-        
-        SSMapAnnotation *stopAnn = [[SSMapAnnotation alloc] initWithCoordinate:location title:[[[stop elementsForName:@"name2"] objectAtIndex:0] stringValue]];
-        [myMap addAnnotation:stopAnn];
+        if ([[stop elementsForName:@"latitude"] count] > 0  && [[stop elementsForName:@"longitude"] count] > 0) {
+            location.latitude = [[[stop elementsForName:@"latitude"] objectAtIndex:0] floatValue];
+            location.longitude = [[[stop elementsForName:@"longitude"] objectAtIndex:0] floatValue];
+            
+            SSMapAnnotation *stopAnn = [[SSMapAnnotation alloc] initWithCoordinate:location title:[[[stop elementsForName:@"name2"] objectAtIndex:0] stringValue]];
+            [myMap addAnnotation:stopAnn];
+        }
     }
     
     

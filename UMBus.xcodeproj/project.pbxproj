@@ -18,8 +18,6 @@
 		476C3BD4135A7D4D000C4F74 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C3BD3135A7D4D000C4F74 /* GDataXMLNode.m */; };
 		476C3BDB135AC9A9000C4F74 /* SpecialStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C3BDA135AC9A5000C4F74 /* SpecialStopViewController.m */; };
 		476C3BE4135B3BE5000C4F74 /* NSString+meltutils.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C3BE3135B3BE4000C4F74 /* NSString+meltutils.m */; };
-		476C3C0B135B9377000C4F74 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 476C3C09135B9377000C4F74 /* icon.png */; };
-		476C3C0C135B9377000C4F74 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476C3C0A135B9377000C4F74 /* icon@2x.png */; };
 		476C3C27135D5C51000C4F74 /* mbus.png in Resources */ = {isa = PBXBuildFile; fileRef = 476C3C25135D5C51000C4F74 /* mbus.png */; };
 		476C3C28135D5C51000C4F74 /* mbus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476C3C26135D5C51000C4F74 /* mbus@2x.png */; };
 		476C3C2B135D61F1000C4F74 /* SSMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C3C2A135D61EF000C4F74 /* SSMapAnnotation.m */; };
@@ -29,6 +27,8 @@
 		476C3C39135E53CC000C4F74 /* 103-map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476C3C37135E53CB000C4F74 /* 103-map@2x.png */; };
 		476C3C3E135E5AE2000C4F74 /* closebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 476C3C3C135E5AE0000C4F74 /* closebox.png */; };
 		476C3C3F135E5AE2000C4F74 /* closebox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476C3C3D135E5AE1000C4F74 /* closebox@2x.png */; };
+		4789D7461611508C00A31885 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4789D7451611508C00A31885 /* Icon.png */; };
+		4789D7481611508F00A31885 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4789D7471611508F00A31885 /* Icon@2x.png */; };
 		47D5ABE0135E87D900A2E74D /* HGMapPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D5ABDA135E87D900A2E74D /* HGMapPath.m */; };
 		47D5ABE1135E87D900A2E74D /* HGMovingAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D5ABDD135E87D900A2E74D /* HGMovingAnnotation.m */; };
 		47D5ABE2135E87D900A2E74D /* HGMovingAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D5ABDF135E87D900A2E74D /* HGMovingAnnotationView.m */; };
@@ -84,8 +84,6 @@
 		476C3BDA135AC9A5000C4F74 /* SpecialStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialStopViewController.m; sourceTree = "<group>"; };
 		476C3BE2135B3BE2000C4F74 /* NSString+meltutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+meltutils.h"; sourceTree = "<group>"; };
 		476C3BE3135B3BE4000C4F74 /* NSString+meltutils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+meltutils.m"; sourceTree = "<group>"; };
-		476C3C09135B9377000C4F74 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		476C3C0A135B9377000C4F74 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		476C3C25135D5C51000C4F74 /* mbus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mbus.png; sourceTree = "<group>"; };
 		476C3C26135D5C51000C4F74 /* mbus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbus@2x.png"; sourceTree = "<group>"; };
 		476C3C29135D61EE000C4F74 /* SSMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMapAnnotation.h; sourceTree = "<group>"; };
@@ -97,6 +95,8 @@
 		476C3C37135E53CB000C4F74 /* 103-map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "103-map@2x.png"; path = "XMLSupport/103-map@2x.png"; sourceTree = "<group>"; };
 		476C3C3C135E5AE0000C4F74 /* closebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closebox.png; sourceTree = "<group>"; };
 		476C3C3D135E5AE1000C4F74 /* closebox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closebox@2x.png"; sourceTree = "<group>"; };
+		4789D7451611508C00A31885 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4789D7471611508F00A31885 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		47D5ABDA135E87D900A2E74D /* HGMapPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGMapPath.m; sourceTree = "<group>"; };
 		47D5ABDB135E87D900A2E74D /* HGMapPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGMapPath.h; sourceTree = "<group>"; };
 		47D5ABDC135E87D900A2E74D /* HGMovingAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGMovingAnnotation.h; sourceTree = "<group>"; };
@@ -214,7 +214,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				47E6D03F160FD6F50030FA1A /* Default-568h@2x.png */,
 				476C3BD1135A7D4D000C4F74 /* XMLSupport */,
 				476C3BBA135A3C7F000C4F74 /* Icons */,
 				47D5ABE3135E87E100A2E74D /* Map Path */,
@@ -267,6 +266,9 @@
 		476C3BBA135A3C7F000C4F74 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				4789D7471611508F00A31885 /* Icon@2x.png */,
+				4789D7451611508C00A31885 /* Icon.png */,
+				47E6D03F160FD6F50030FA1A /* Default-568h@2x.png */,
 				47D5AC2013635E5200A2E74D /* 28-star.png */,
 				47D5AC2113635E5300A2E74D /* 28-star@2x.png */,
 				47D5AC1C136350F200A2E74D /* favL.png */,
@@ -281,8 +283,6 @@
 				476C3C37135E53CB000C4F74 /* 103-map@2x.png */,
 				476C3C25135D5C51000C4F74 /* mbus.png */,
 				476C3C26135D5C51000C4F74 /* mbus@2x.png */,
-				476C3C09135B9377000C4F74 /* icon.png */,
-				476C3C0A135B9377000C4F74 /* icon@2x.png */,
 				476C3BB6135A3C7A000C4F74 /* 55-network.png */,
 				476C3BB7135A3C7A000C4F74 /* 55-network@2x.png */,
 				47D5ABEE135E8E3C00A2E74D /* symbol-moving-annotation@2x.png */,
@@ -381,8 +381,6 @@
 				47DA687C1357B97900C2E0E5 /* StopViewController.xib in Resources */,
 				476C3BB8135A3C7A000C4F74 /* 55-network.png in Resources */,
 				476C3BB9135A3C7A000C4F74 /* 55-network@2x.png in Resources */,
-				476C3C0B135B9377000C4F74 /* icon.png in Resources */,
-				476C3C0C135B9377000C4F74 /* icon@2x.png in Resources */,
 				476C3C27135D5C51000C4F74 /* mbus.png in Resources */,
 				476C3C28135D5C51000C4F74 /* mbus@2x.png in Resources */,
 				476C3C35135E5195000C4F74 /* StopsMapViewController.xib in Resources */,
@@ -402,6 +400,8 @@
 				47D5AC2213635E5300A2E74D /* 28-star.png in Resources */,
 				47D5AC2313635E5300A2E74D /* 28-star@2x.png in Resources */,
 				47E6D040160FD6F50030FA1A /* Default-568h@2x.png in Resources */,
+				4789D7461611508C00A31885 /* Icon.png in Resources */,
+				4789D7481611508F00A31885 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +445,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -454,6 +456,8 @@
 				INFOPLIST_FILE = "UMBus-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = UMBus;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
 			name = Debug;
 		};
@@ -461,12 +465,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UMBus_Prefix.pch;
 				INFOPLIST_FILE = "UMBus-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = UMBus;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
